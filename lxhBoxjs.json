@@ -107,8 +107,7 @@
         "repo": "https://github.com/Sunert/Scripts/blob/master/Task/jingxi.js",
         "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
         "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js"
-    },
-   ],
+    }],
         "author": "@sunert",
         "repo": "https://github.com/Sunert/Scripts/blob/master/Task/trainquery.js",
         "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/12306.png", "https://raw.githubusercontent.com/Orz-3/task/master/12306.png"],
