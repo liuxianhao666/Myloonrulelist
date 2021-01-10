@@ -6,3 +6,29 @@ https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/ziye.boxjs.json
 
 冬日阳光:
 https://raw.githubusercontent.com/xingliuchao/jd/main/box.json
+
+互助码提交：
+**由于原脚本经常超时，重构了代码，以便更好的支持互助码提交
+**京东互助码多账号提交，脚本兼容: QuantumultX, Surge, Loon，小火箭
+1.Author: Cuttlefish 需要将本脚本下载至本地进行编辑
+由于tg作者服务器资源有限，提交时经常会无响应，故手动执行，看日志内容
+2.助力码请自行订阅本库boxjs订阅，在京东云助力中进行设置，目前只写了3个账号的助力码提交。
+boxjs订阅：https://raw.githubusercontent.com/photonmang/quantumultX/master/photonmang.boxjs.json
+3.状态码200为成功，出现其他状态码，请手工再执行一次，以免漏提交
+
+=================================Quantumultx=========================
+[task_local]
+#互助码提交
+15,20 10 1,10,20 * * https://raw.githubusercontent.com/photonmang/quantumultX/master/cache/shareCode.js, tag=互助码提交
+=================================Loon===================================
+[Script]
+cron "15,20 10 1,10,20 * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/cache/shareCode.js,tag=互助码提交
+===================================Surge================================
+互助码提交 = type=cron,cronexp="15,20 10 1,10,20 * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/cache/shareCode.js
+====================================小火箭=============================
+互助码提交 = type=cron,script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/cache/shareCode.js, cronexpr="15,20 10 1,10,20 * *", timeout=500, enable=true
+
+
+
+12.28  新增京东crazyjoy助力，请及时更新boxjs订阅进行添加joy助力码
+*/
